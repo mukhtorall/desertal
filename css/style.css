@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f0eeee;
+}
+
+header {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  border: var(--border);
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 12%;
+  border: var(--border);
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: var(--border);
+  cursor: pointer;
+}
+.logo:active {
+  transform: scale(0.9);
+}
+.list {
+  width: 70%;
+  height: 100%;
+  border: var(--border);
+}
+
+.list-menu {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 12px 2px;
+  list-style: none;
+  cursor: pointer;
+}
+.list-item:hover {
+  text-decoration: underline 3px blue;
+}
+.list-item:active {
+  opacity: 0.8;
+  transform: scale(0.8);
+}
+
+/*   */
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  border: var(--border);
+}
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border: var(--border);
+  cursor: pointer;
+}
+.ht-container {
+  margin: 0 auto;
+  width: 95%;
+  height: 80%;
+  border: var(--border);
+}
+.hero-media {
+  width: 50%;
+  height: 100%;
+  border: var(--border);
+  cursor: pointer;
+}
+.hero-media:active {
+  transform: scale(1.1);
+}
+
+.ht-container span {
+  color: #f15c43;
+}
+.ht-container h1 {
+  font-size: 55px;
+}
+.ht-container a {
+  list-style: none;
+}
+.ht-btn {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  margin-top: 10px;
+  padding: 0px 10px;
+  text-align: start;
+  align-items: center;
+  border: var(--border);
+}
+.ht-btn button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f15c43;
+  color: white;
+  border: 1px solid white;
+}
+.ht-btn button:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.ht-btn img {
+  margin-top: 10px;
+  border: var(--border);
+}
+.ht-btn img:active {
+  transform: scale(0.8);
+}
+
+/*    */
+
+.hero-media img {
+  display: flex;
+  margin: 0 auto;
+  width: 450px;
+  height: 550px;
+}
+.h-media img {
+  position: absolute;
+  margin-top: -430px;
+  width: 160px;
+  height: 160px;
+}
+.h-item {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+}
+.hero-item {
+  border: var(--border);
+}
+.hero-item h1 {
+  margin-top: 30px;
+  border: var(--border);
+  color: #6379d2;
+}
+.hero-item p {
+  opacity: 0.9;
+  border: var(--border);
+  font-size: 15px;
+}
+.hero-item p:hover {
+  text-decoration: underline 2px blue;
+}
+
+/*      */
+
+.section-container {
+  width: 100%;
+  height: 50%;
+  /* border: var(--border); */
+}
+.section-container h2 {
+  margin: 0 auto;
+  padding: 10px 50px;
+  border: var(--border);
+  cursor: pointer;
+}
+
+.section-item {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  border: var(--border);
+}
+
+.section-card {
+  display: flex;
+  gap: 20px;
+  width: 350px;
+  height: 180px;
+  border: var(--border);
+  background-color: white;
+}
+.section-card:active {
+  background-color: rgb(52, 52, 53);
+  color: white;
+}
+
+.section-card img {
+  width: 120px;
+  height: 150px;
+  margin: 20px;
+  border: var(--border);
+}
+.section-card img:hover {
+  transform: scale(1.1);
+}
+.section-card h5 {
+  margin-top: 30px;
+  width: 150px;
+  height: 30px;
+  border: var(--border);
+}
+.section-card span {
+  color: #ff0000;
+}
